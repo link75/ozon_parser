@@ -1,0 +1,4 @@
+pandas==2.2.1
+Scrapy==2.11.1
+scrapy-selenium==0.0.7
+seleniumbase==4.24.11
