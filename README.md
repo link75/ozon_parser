@@ -19,19 +19,19 @@ git clone <адрес_репозитория>
 ```
 3. Создать виртуальное окружение
 ```
-$ python -m venv venv
+python -m venv venv
 ```
 3. Активировать виртуальное окружение
 ```
-$ source venv/Scripts/activate
+source venv/Scripts/activate
 ```
 4. Обновить pip
 ```
-$ python -m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 5. Установить зависимости из файла requirements.txt
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 6. Заменить файл `middlewares.py` из виртуального окружения на обновленный с исправленными настройками web-драйвера
 из папки `fixes/`
@@ -46,18 +46,18 @@ cd ..
 
 8. Запустить паука для сбора ссылок на товары для категории
 ```
-$ scrapy crawl product_links_spider
+scrapy crawl product_links_spider
 ```
 
 9. Запустить паука для сбора данных по каждому товару
 ```
-$ scrapy crawl product_data_spider
+scrapy crawl product_data_spider
 ```
 
 10. Вывести в терминал данные (распределение моделей устройств по версиям операционных систем), запустить скрипт `show_models.py`
 ```
-$ python show_models.py
+python show_models.py
 ```
 
 ## Дополнительно
-Парсер создан в рамках тестового задания, возможно будет дорабатываться и улучшаться с целью получения новых знаний и опыта.
+Парсер создан в рамках тестового задания с целью получения новых знаний и опыта. Возможны дальнейшие улучшения и доработки.
